@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: dev
+    database: zoomcamp-terraform
+    schema: ny_taxi
+    tables:
+      - name: yellow_taxi_paritioned
+      - name: green_taxi_paritioned
+      - name: fhv_taxi_paritioned
