@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: dim_zones
+    description: >
+      List of unique zones identified by locationid.
+      Includes the service zone they correspond to (i.e. green or yellow)
+      
+  - name: fact_trips
+    description: >
+      Taxi trips corresponding to both service zones (green and yellow).
+      The table contains records where both pickup and dropoff locations are valid and known zones.
+      Each record corresponds to a trip uniquely identified by tripid.
+  
